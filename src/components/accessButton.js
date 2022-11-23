@@ -11,16 +11,16 @@ const AccessButton = () => {
   };
 
   return (
-    <div className="mx-auto bg-gray-900">
+    <div className="mx-auto bg-gray-200">
       <div className="grid justify-items-center py-5">
         {api ?
-          <div className="text-xl font-bold tracking-tight text-white">
+          <div className="text-xl font-bold tracking-tight text-black">
             Connected To Yoroi
-            <div className="py-1 text-xl font-bold tracking-tight text-white text-center">
+            <div className="py-1 text-xl font-bold tracking-tight text-black text-center">
               {getWalletPlate(api)}
             </div>
           </div> :
-          <button className="rounded-md border-black-300 bg-blue-500 hover:bg-blue-500 py-5 px-5" onClick={() => connect(true, false)}>
+          <button className="rounded-md border-black-300 bg-sky-600 hover:bg-sky-800 py-5 px-5 text-white font-bold" onClick={() => connect(true, false)}>
             Request Access To Yoroi
           </button>
         }

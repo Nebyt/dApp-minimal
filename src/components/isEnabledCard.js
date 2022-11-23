@@ -19,7 +19,7 @@ const IsEnabledCard = ({onResponse, onWaiting}) => {
 
   const apiProps = {
     apiName: "isEnabled",
-    apiDescription: "Returns true or false depending on whether Yoroi is enabled",
+    apiDescription: "Returns true or false depending on whether Yoroi is enabled.",
     clickFunction: isDisabledClick
   }
 

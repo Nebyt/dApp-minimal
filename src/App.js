@@ -5,7 +5,7 @@ import MainTab from './components/mainTab';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-800">
+    <div className="min-h-screen bg-gray-100">
       <AccessButton />
       <MainTab />
     </div>

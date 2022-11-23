@@ -23,7 +23,7 @@ const GetBalanceCard = ({ api, wasm, onResponse, onWaiting }) => {
 
   const apiProps = {
     apiName: "getBalance",
-    apiDescription: "Returns the balance of your account in lovelaces and tokens",
+    apiDescription: "Returns the balance of your account in lovelaces and tokens.",
     clickFunction: getBalanceClick
   }
 
